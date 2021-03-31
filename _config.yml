@@ -19,13 +19,12 @@ name: "Sumeyra Ozgur Kaplan"
 email: smyrozgur@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website published from Sumeyra Ozgur Kaplan.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://sozgur.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter:
   username: "sozgur19"
 
 # Build settings
-markdown: kramdown
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "default"
 plugins:
@@ -41,7 +40,10 @@ head_scripts:
   - https://code.jquery.com/jquery-3.2.1.min.js
 
 #Pages setting
-include: ["_pages"]
+include: [".htaccess", "_pages"]
+exclude:
+  - Gemfile
+  - Gemfile.lock
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 
@@ -83,6 +85,24 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sozgur"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
