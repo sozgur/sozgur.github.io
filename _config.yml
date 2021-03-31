@@ -20,7 +20,8 @@ email: smyrozgur@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website published from Sumeyra Ozgur Kaplan.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://sozgur.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://github.com/sozgur/sozgur.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+repository: "sozgur/sozgur.github.io"
 twitter:
   username: "sozgur19"
 
@@ -33,8 +34,6 @@ plugins:
 
 locale: "en-US"
 timezone: America/Los_Angeles.
-
-repository: "sozgur/sozgur.github.io"
 
 #side scripts
 head_scripts:
