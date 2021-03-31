@@ -29,6 +29,10 @@ theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "default"
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-include-cache
 
 locale: "en-US"
 timezone: America/Los_Angeles.
