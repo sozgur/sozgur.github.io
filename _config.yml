@@ -18,7 +18,7 @@ title: SOZGUR
 name: "Sumeyra Ozgur Kaplan"
 email: smyrozgur@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal website published from Sumeyra Ozgur Kaplan.
+  Personal website published by Sumeyra Ozgur Kaplan.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://sozgur.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "sozgur/sozgur.github.io"
