@@ -78,7 +78,7 @@ clear: both;
 </html>
 
 <br>
-<p><em>The HTML code is as below: [1]</em></p>
+<p><em>The HTML code is as below: </em></p>
 
 {% highlight html %}
 
@@ -104,7 +104,7 @@ The row has 3 columns, but it could be more than 3.
 
 The column background color will be changed randomly by event delegation instead of assingn an `click` handler to each column (can be many).
 
-<p><em>The Code:</em></p>
+<p><em>The JavaScript code is as below:</em></p>
 
 ```javascript
 const row = document.querySelector(".row");
